@@ -52,8 +52,24 @@ console.log(s.split);
 
 const numbers = new Array(1, 2, 3, 4, 5);
 
+const fruits = ['apples', 'bananas', 'strawberries']
 
-console.log(numbers)
+console.log(fruits[1]); // -> 'apples'
+
+fruits[1] = 'grapes';
+
+fruits.pop()
+
+fruits.unshift('strawberries')
+
+fruits.
+
+console.log(fruits[1]);
+
+
+console.log(Array.isArray('hello'))
+console.log(Array.isArray(fruits[1]))
+console.log(Array.isArray(fruits))
 
 
 
