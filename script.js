@@ -87,11 +87,11 @@ const my_object = {
 
 // Destructing
 
-const {firstName, lastName, address: { city }} = person;
+// const {firstName, lastName} = person;
 
-person.email = 'john@gmail.com'
+// person.email = 'john@gmail.com'
 
-console.log(person)
+// console.log(person)
 
 
 // More object stuff
@@ -116,6 +116,24 @@ const todos = [
     }
 ]
  
-console.log(todos)
+// For Loops
 
 
+for (let i = 0; i < 10, i++;){
+    console.log(`For Loop Number $ {i}`);
+}
+
+
+// While 
+
+let i = 0;
+
+while(i < 10) {
+    console.log(i);
+    i++;
+}
+
+
+for(let i = 0; i < todos.length; i++){
+    console.log(todos[i]);
+}
