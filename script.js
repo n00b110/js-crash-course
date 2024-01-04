@@ -60,9 +60,7 @@ fruits[1] = 'grapes';
 
 fruits.pop()
 
-fruits.unshift('strawberries')
-
-fruits.
+fruits.unshift('strawberries');
 
 console.log(fruits[1]);
 
@@ -72,6 +70,52 @@ console.log(Array.isArray(fruits[1]))
 console.log(Array.isArray(fruits))
 
 
+const my_object = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['boxing', 'swimming', 'fishing'],
+    address: {
+        street: '',
+        city: 'Boston',
+        state: 'MA'
+    }
 
+
+}
+
+
+// Destructing
+
+const {firstName, lastName, address: { city }} = person;
+
+person.email = 'john@gmail.com'
+
+console.log(person)
+
+
+// More object stuff
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true,
+    },
+
+    {
+        id: 2,
+        text: 'Reply to emails',
+        isCompleted: true,
+    },
+
+    {
+        id: 3,
+        text: 'Take out trash',
+        isCompleted: true,
+    }
+]
+ 
+console.log(todos)
 
 
