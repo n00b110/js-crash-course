@@ -134,6 +134,33 @@ while(i < 10) {
 }
 
 
-for(let i = 0; i < todos.length; i++){
-    console.log(todos[i]);
+// for(let i = 0; i < todos.length; i++){
+//     console.log(todos[i]);
+// }
+
+// const todoText = todos.filter(function(todo){
+//     return
+// });
+
+// Conditionals
+
+
+const q = 10;
+if (q === 10) {
+    console.log('x is 10');
+
+} else if (q > 10) {
+    console.log('x is greater than 10');
+} else {
+    console.log('x is less than 10');
+}
+
+
+
+const color = q > 5 ? 'red': 'blue';
+console.log(color);
+
+
+const addNums = (num = 1, num2 = 1) => {
+    console.log(num + num2);
 }
