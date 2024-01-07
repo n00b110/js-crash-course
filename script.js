@@ -164,3 +164,14 @@ console.log(color);
 const addNums = (num = 1, num2 = 1) => {
     console.log(num + num2);
 }
+
+// Constructor Function
+
+function Person(firstName, lastName, dob) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
+}
+
+const person1 = new Person('John', 'Doe', '04-12-1980');
+const person2 = new Person('Jane', 'Doe', '12-12-1997');
