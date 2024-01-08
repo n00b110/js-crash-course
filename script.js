@@ -175,3 +175,21 @@ function Person(firstName, lastName, dob) {
 
 const person1 = new Person('John', 'Doe', '04-12-1980');
 const person2 = new Person('Jane', 'Doe', '12-12-1997');
+
+
+// Class
+
+class Person {
+    constructor(firstName, lastName, dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = new Date(dob);
+    }
+
+    getBirthYear() {
+        return this.dob;
+    }
+}
+
+
+
